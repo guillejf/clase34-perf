@@ -1,0 +1,166 @@
+{
+  "aggregate": {
+    "counters": {
+      "vusers.created_by_name.0": 40,
+      "vusers.created": 40,
+      "http.requests": 49,
+      "http.codes.200": 9,
+      "http.responses": 9,
+      "http.downloaded_bytes": 162,
+      "errors.ETIMEDOUT": 40,
+      "vusers.failed": 40
+    },
+    "rates": {
+      "http.request_rate": 4
+    },
+    "firstCounterAt": 1691630544584,
+    "firstHistogramAt": 1691630545439,
+    "lastCounterAt": 1691630564495,
+    "lastHistogramAt": 1691630554484,
+    "firstMetricAt": 1691630544584,
+    "lastMetricAt": 1691630564495,
+    "period": 1691630560000,
+    "summaries": {
+      "http.response_time": {
+        "min": 809,
+        "max": 9696,
+        "count": 9,
+        "p50": 3828.5,
+        "median": 3828.5,
+        "p75": 6312.2,
+        "p90": 8024.5,
+        "p95": 8024.5,
+        "p99": 8024.5,
+        "p999": 8024.5
+      }
+    },
+    "histograms": {
+      "http.response_time": {
+        "min": 809,
+        "max": 9696,
+        "count": 9,
+        "p50": 3828.5,
+        "median": 3828.5,
+        "p75": 6312.2,
+        "p90": 8024.5,
+        "p95": 8024.5,
+        "p99": 8024.5,
+        "p999": 8024.5
+      }
+    }
+  },
+  "intermediate": [
+    {
+      "counters": {
+        "vusers.created_by_name.0": 40,
+        "vusers.created": 40,
+        "http.requests": 46,
+        "http.codes.200": 6,
+        "http.responses": 6,
+        "http.downloaded_bytes": 108
+      },
+      "rates": {
+        "http.request_rate": 10
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1691630544584,
+      "firstHistogramAt": 1691630545439,
+      "lastCounterAt": 1691630549273,
+      "lastHistogramAt": 1691630549272,
+      "firstMetricAt": 1691630544584,
+      "lastMetricAt": 1691630549273,
+      "period": "1691630540000",
+      "summaries": {
+        "http.response_time": {
+          "min": 809,
+          "max": 4560,
+          "count": 6,
+          "p50": 2322.1,
+          "median": 2322.1,
+          "p75": 3072.4,
+          "p90": 3828.5,
+          "p95": 3828.5,
+          "p99": 3828.5,
+          "p999": 3828.5
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 809,
+          "max": 4560,
+          "count": 6,
+          "p50": 2322.1,
+          "median": 2322.1,
+          "p75": 3072.4,
+          "p90": 3828.5,
+          "p95": 3828.5,
+          "p99": 3828.5,
+          "p999": 3828.5
+        }
+      }
+    },
+    {
+      "counters": {
+        "http.codes.200": 3,
+        "http.responses": 3,
+        "http.downloaded_bytes": 54,
+        "http.requests": 3,
+        "errors.ETIMEDOUT": 37,
+        "vusers.failed": 37
+      },
+      "rates": {
+        "http.request_rate": 1
+      },
+      "http.request_rate": null,
+      "firstCounterAt": 1691630551033,
+      "firstHistogramAt": 1691630551033,
+      "lastCounterAt": 1691630559281,
+      "lastHistogramAt": 1691630554484,
+      "firstMetricAt": 1691630551033,
+      "lastMetricAt": 1691630559281,
+      "period": "1691630550000",
+      "summaries": {
+        "http.response_time": {
+          "min": 6298,
+          "max": 9696,
+          "count": 3,
+          "p50": 8024.5,
+          "median": 8024.5,
+          "p75": 8024.5,
+          "p90": 8024.5,
+          "p95": 8024.5,
+          "p99": 8024.5,
+          "p999": 8024.5
+        }
+      },
+      "histograms": {
+        "http.response_time": {
+          "min": 6298,
+          "max": 9696,
+          "count": 3,
+          "p50": 8024.5,
+          "median": 8024.5,
+          "p75": 8024.5,
+          "p90": 8024.5,
+          "p95": 8024.5,
+          "p99": 8024.5,
+          "p999": 8024.5
+        }
+      }
+    },
+    {
+      "counters": {
+        "errors.ETIMEDOUT": 3,
+        "vusers.failed": 3
+      },
+      "rates": {},
+      "firstCounterAt": 1691630561036,
+      "lastCounterAt": 1691630564495,
+      "firstMetricAt": 1691630561036,
+      "lastMetricAt": 1691630564495,
+      "period": "1691630560000",
+      "summaries": {},
+      "histograms": {}
+    }
+  ]
+}
